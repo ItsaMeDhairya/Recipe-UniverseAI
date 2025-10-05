@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" class="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Recipe Universe - Masterpiece Edition</title>
+    
+    <!-- Fonts and Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              serif: ['Playfair Display', 'serif'],
+            },
+          }
+        }
+      }
+    </script>
+</head>
+<body class="bg-stone-100 dark:bg-gray-900 text-stone-800 dark:text-stone-200 overflow-hidden">
+
+    <header class="lg:hidden flex items-center justify-center px-6 py-4 bg-white/75 dark:bg-gray-800/75 backdrop-blur-md sticky top-0 z-30 shadow-md relative">
+        <div class="flex items-center gap-3">
+            <i class="ph-duotone ph-spiral text-4xl text-indigo-500"></i>
+            <h1 class="font-bold text-2xl tracking-tighter">Recipe Universe</h1>
+        </div>
+        <button id="sidebar-toggle" class="p-2 absolute left-4 top-1/2 -translate-y-1/2">
+            <i class="ph-bold ph-list text-3xl"></i>
+        </button>
+    </header>
+
+    <div id="app-container" class="flex h-screen">
+        
+        <!-- Sidebar Navigation -->
+        <aside id="sidebar" class="w-5/6 max-w-xs bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm border-r border-stone-200 dark:border-gray-700/50 flex-shrink-0 flex flex-col p-4 pb-[100px] transition-all duration-300 fixed lg:relative h-full z-40 -translate-x-full lg:w-64 lg:max-w-none lg:translate-x-0 overflow-y-auto lg:p-4">
+            <nav class="flex flex-col space-y-2">
+                <a href="#home" class="nav-item flex items-center gap-3 p-3 rounded-lg text-stone-600 dark:text-stone-300 hover:bg-stone-200/60 dark:hover:bg-gray-700/50">
+                    <i class="ph-bold ph-house text-xl"></i><span>Home</span>
+                </a>
+                <a href="#generate" class="nav-item flex items-center gap-3 p-3 rounded-lg text-stone-600 dark:text-stone-300 hover:bg-stone-200/60 dark:hover:bg-gray-700/50">
+                    <i class="ph-bold ph-magic-wand text-xl"></i><span>Generator</span>
+                </a>
+                <a href="#cookbook" class="nav-item flex items-center gap-3 p-3 rounded-lg text-stone-600 dark:text-stone-300 hover:bg-stone-200/60 dark:hover:bg-gray-700/50">
+                    <i class="ph-bold ph-books text-xl"></i><span>Cookbook</span>
+                </a>
+                <a href="#pantry" class="nav-item flex items-center gap-3 p-3 rounded-lg text-stone-600 dark:text-stone-300 hover:bg-stone-200/60 dark:hover:bg-gray-700/50">
+                    <i class="ph-bold ph-potted-plant text-xl"></i><span>My Pantry</span>
+                </a>
+                <a href="#planner" class="nav-item flex items-center gap-3 p-3 rounded-lg text-stone-600 dark:text-stone-300 hover:bg-stone-200/60 dark:hover:bg-gray-700/50">
+                    <i class="ph-bold ph-calendar-blank text-xl"></i><span>Meal Planner</span>
+                </a>
+            </nav>
+
+            <div class="mt-auto">
+                <a href="#settings" class="nav-item flex items-center gap-3 p-3 rounded-lg text-stone-600 dark:text-stone-300 hover:bg-stone-200/60 dark:hover:bg-gray-700/50">
+                    <i class="ph-bold ph-gear text-xl"></i><span>Settings</span>
+                </a>
+                <div id="theme-toggle" class="flex items-center justify-between p-3 rounded-lg cursor-pointer text-stone-600 dark:text-stone-300 hover:bg-stone-200/60 dark:hover:bg-gray-700/50">
+                    <div class="flex items-center gap-3">
+                        <i class="ph-bold ph-moon text-xl"></i><span>Dark Mode</span>
+                    </div>
+                    <div class="w-10 h-6 bg-stone-200 dark:bg-gray-700 rounded-full flex items-center p-1 transition-colors">
+                        <div id="theme-indicator" class="w-4 h-4 bg-white rounded-full shadow-md"></div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main id="main-content" class="flex-1 p-6 sm:p-8 lg:p-10 overflow-y-auto">
+            <!-- Dynamic page content will be rendered here by app.js -->
+        </main>
+    </div>
+
+    <!-- Global Modal Container -->
+    <div id="modal-container" class="hidden fixed inset-0 bg-black/30 backdrop-blur-sm flex items-center justify-center p-4 z-50">
+        <!-- Modal content will be injected here by app.js -->
+    </div>
+
+    <!-- Global Toast Notifications Container -->
+    <div id="toast-container" class="fixed bottom-5 right-5 z-50 space-y-3 w-full max-w-xs sm:max-w-sm">
+        <!-- Toast notifications will be injected here by app.js -->
+    </div>
+
+    <!-- Main Application Logic -->
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>
+

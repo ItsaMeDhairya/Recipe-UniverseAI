@@ -1,0 +1,228 @@
+{
+    "user_1759668142484_jp7yd1w8i": {
+        "cookbook": [
+            {
+                "calorieCount": 780,
+                "description": "A fragrant and flavorful layered rice dish made with marinated chicken, aromatic basmati rice, and a medley of traditional Indian spices. Perfect for special occasions or a hearty family meal.",
+                "ingredients": [
+                    "500g bone-in chicken pieces, cut into medium sizes",
+                    "2 cups Basmati rice, soaked for 30 minutes",
+                    "3 large onions, thinly sliced",
+                    "1 cup plain yogurt, whisked",
+                    "2 tablespoons ginger-garlic paste",
+                    "2-3 green chilies, slit lengthwise (adjust to taste)",
+                    "1/2 cup fresh mint leaves, chopped",
+                    "1/2 cup fresh coriander leaves, chopped",
+                    "1/4 cup ghee or cooking oil",
+                    "1 teaspoon turmeric powder",
+                    "1 teaspoon red chili powder (adjust to taste)",
+                    "1 tablespoon coriander powder",
+                    "1 teaspoon cumin powder",
+                    "1 tablespoon Biryani masala (or Garam masala)",
+                    "4-5 green cardamom pods",
+                    "4-5 cloves",
+                    "2-inch cinnamon stick",
+                    "2 bay leaves",
+                    "1/4 teaspoon saffron strands, soaked in 1/4 cup warm milk",
+                    "Salt to taste",
+                    "Water for cooking rice"
+                ],
+                "instructions": [
+                    "Marinate the chicken: In a large bowl, combine chicken pieces with yogurt, ginger-garlic paste, red chili powder, turmeric powder, coriander powder, cumin powder, Biryani masala (or garam masala), half of the chopped mint and coriander leaves, green chilies, and salt. Mix well and let it marinate for at least 1 hour, or preferably 3-4 hours in the refrigerator.",
+                    "Prepare fried onions (Birista): Heat ghee/oil in a large, heavy-bottomed pot or Dutch oven. Add thinly sliced onions and fry on medium-low heat until deep golden brown and crispy. This will take about 20-25 minutes. Remove half of the fried onions and set aside for garnishing.",
+                    "Cook the chicken base: In the same pot with the remaining fried onions and oil, add bay leaves, cinnamon stick, green cardamom, and cloves. Saut\u00e9 for 30 seconds until fragrant. Add the marinated chicken and cook on medium heat, stirring occasionally, until the chicken is browned and the masala starts to release oil (about 15-20 minutes).",
+                    "Par-cook the rice: While the chicken is cooking, drain the soaked Basmati rice. In a large pot, bring plenty of water to a rolling boil. Add salt. Add the drained Basmati rice and cook until it's about 70-80% done (the grains should be slightly firm but not hard). This usually takes 5-7 minutes. Drain the rice immediately.",
+                    "Layer the Biryani: Layer half of the par-cooked rice over the chicken in the pot. Sprinkle with some of the remaining chopped mint and coriander leaves, and some of the reserved fried onions. Drizzle with half of the saffron milk.",
+                    "Add the second layer: Layer the remaining par-cooked rice over the first rice layer. Again, sprinkle with the rest of the chopped mint and coriander leaves, and the remaining reserved fried onions. Drizzle with the rest of the saffron milk.",
+                    "Dum cook: Cover the pot tightly with a lid. You can seal the edges with dough or foil to prevent steam from escaping (optional). Cook on very low heat for 20-25 minutes. This 'dum' cooking allows the flavors to meld and the rice to finish cooking perfectly with the steam.",
+                    "Rest and Serve: Once cooked, turn off the heat and let the biryani rest for 10-15 minutes without opening the lid. Gently fluff the biryani with a fork, mixing the layers. Serve hot with raita and salad."
+                ],
+                "recipeName": "Classic Chicken Biryani",
+                "timeToCook": "2 hours 15 minutes",
+                "imageUrl": "https://i.ytimg.com/vi/0xlUsutD0t4/maxresdefault.jpg",
+                "id": "c8dbb915-0a57-45d4-a6a5-48859187978f"
+            },
+            {
+                "calorieCount": 1420,
+                "description": "A straightforward and delicious meal featuring tender pan-seared chicken breast seasoned simply, served alongside perfectly steamed white rice.",
+                "ingredients": [
+                    "2 boneless, skinless chicken breasts",
+                    "1 cup white rice",
+                    "2 cups water (for rice)",
+                    "1 tablespoon olive oil",
+                    "Salt to taste",
+                    "Black pepper to taste"
+                ],
+                "instructions": [
+                    "Rinse the white rice under cold water until the water runs clear. In a medium saucepan, combine the rinsed rice and 2 cups of water. Bring to a boil, then reduce heat to low, cover, and simmer for 15-18 minutes, or until all water is absorbed. Remove from heat and let stand, covered, for 5 minutes. Fluff with a fork.",
+                    "While the rice cooks, pat the chicken breasts dry with paper towels. Season generously on both sides with salt and black pepper.",
+                    "Heat olive oil in a large skillet over medium-high heat until shimmering.",
+                    "Carefully place the seasoned chicken breasts in the hot skillet. Sear for 5-7 minutes per side, or until golden brown and cooked through (internal temperature reaches 165\u00b0F/74\u00b0C).",
+                    "Remove chicken from the skillet and let rest on a cutting board for a few minutes before slicing or serving whole with the fluffy steamed rice."
+                ],
+                "recipeName": "Simple Pan-Seared Chicken and Fluffy Rice",
+                "timeToCook": "30 minutes",
+                "imageUrl": "https://www.averiecooks.com/wp-content/uploads/2025/03/chickenfriedrice-9.jpg",
+                "id": "9652e8cd-4a54-4b46-ad65-8765dbe6fa0b"
+            }
+        ],
+        "pantry": [
+            "Black Pepper",
+            "Olive Oil",
+            "Garlic",
+            "Onion",
+            "salt",
+            "chicken"
+        ],
+        "meal_plan": {
+            "Friday": {
+                "breakfast": "8ed8e675-3123-4ef0-a26b-0c61f063fd3c",
+                "dinner": "8ed8e675-3123-4ef0-a26b-0c61f063fd3c",
+                "lunch": "8ed8e675-3123-4ef0-a26b-0c61f063fd3c"
+            },
+            "Monday": {
+                "breakfast": null,
+                "dinner": null,
+                "lunch": null
+            },
+            "Saturday": {
+                "breakfast": null,
+                "dinner": null,
+                "lunch": null
+            },
+            "Sunday": {
+                "breakfast": null,
+                "dinner": null,
+                "lunch": null
+            },
+            "Thursday": {
+                "breakfast": null,
+                "dinner": null,
+                "lunch": null
+            },
+            "Tuesday": {
+                "breakfast": null,
+                "dinner": null,
+                "lunch": null
+            },
+            "Wednesday": {
+                "breakfast": null,
+                "dinner": null,
+                "lunch": null
+            }
+        },
+        "preferences": {
+            "theme": "dark",
+            "default_diet": "Gluten-Free"
+        }
+    },
+    "user_1759674277160_kojcsggz5": {
+        "cookbook": [
+            {
+                "calorieCount": 450,
+                "description": "A vibrant and flavorful vegetarian take on classic fajitas, featuring seasoned black beans and colorful bell peppers, perfect for a quick and satisfying Mexican meal.",
+                "ingredients": [
+                    "2 cans (15-ounce each) black beans, rinsed and drained",
+                    "1 large onion, sliced",
+                    "2 bell peppers (any color), sliced",
+                    "2 tablespoons olive oil",
+                    "1 packet (1 ounce) fajita seasoning mix",
+                    "1/2 cup water",
+                    "8-10 small flour or corn tortillas",
+                    "1 lime, cut into wedges (for serving)",
+                    "Optional toppings: fresh cilantro, salsa, guacamole, sour cream or plain Greek yogurt"
+                ],
+                "instructions": [
+                    "In a large skillet or cast iron pan, heat the olive oil over medium-high heat.",
+                    "Add the sliced onion and bell peppers to the skillet. Saut\u00e9 for 5-7 minutes, or until the vegetables start to soften and char slightly.",
+                    "Stir in the rinsed and drained black beans and the fajita seasoning mix. Cook for another 2-3 minutes, stirring occasionally, to coat the beans and vegetables thoroughly.",
+                    "Add 1/2 cup of water to the skillet. Bring to a simmer and cook for 5 minutes, allowing the sauce to thicken slightly and the flavors to meld.",
+                    "While the filling is simmering, warm the tortillas according to package directions (microwave, oven, or dry skillet).",
+                    "Serve the black bean and vegetable mixture immediately with warm tortillas and lime wedges. Offer optional toppings like fresh cilantro, salsa, guacamole, or a dollop of sour cream/Greek yogurt.",
+                    "Squeeze fresh lime juice over your fajitas before eating for an extra zing."
+                ],
+                "recipeName": "Spicy Black Bean Fajitas",
+                "timeToCook": "30 minutes",
+                "imageUrl": "https://www.happyveggiekitchen.com/wp-content/uploads/2023/03/Black-Bean-Fajitas-8.jpg",
+                "id": "10b69fb9-ea95-4f04-a76d-c86d0ec36ebe"
+            },
+            {
+                "calorieCount": 380,
+                "description": "A simple and flavorful baked chicken dish, seasoned with lemon, garlic, and fresh herbs, perfect for a quick weeknight meal that's both healthy and delicious.",
+                "ingredients": [
+                    "4 boneless, skinless chicken breasts",
+                    "2 tablespoons olive oil",
+                    "1 lemon, thinly sliced",
+                    "3 cloves garlic, minced",
+                    "1 teaspoon dried oregano",
+                    "1/2 teaspoon dried thyme",
+                    "Salt to taste",
+                    "Black pepper to taste",
+                    "Fresh parsley, chopped (for garnish, optional)"
+                ],
+                "instructions": [
+                    "Preheat oven to 375\u00b0F (190\u00b0C).",
+                    "Pat chicken breasts dry with paper towels.",
+                    "In a small bowl, whisk together olive oil, minced garlic, oregano, thyme, salt, and pepper.",
+                    "Place chicken breasts in a baking dish. Pour the olive oil mixture over the chicken, ensuring both sides are coated.",
+                    "Arrange lemon slices on top of and around the chicken.",
+                    "Bake for 20-25 minutes, or until the internal temperature of the chicken reaches 165\u00b0F (74\u00b0C) and juices run clear.",
+                    "Remove from oven, let rest for 5 minutes before slicing or serving.",
+                    "Garnish with fresh parsley if desired."
+                ],
+                "recipeName": "Lemon Herb Baked Chicken",
+                "timeToCook": "35 minutes",
+                "imageUrl": "https://www.foodandwine.com/thmb/t9YqzGbmH-huAbV6xitCQs0-G4s=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/FAW-recipes-herb-and-lemon-roasted-chicken-hero-c4ba0aec56884683be482c47b1e1df11.jpg",
+                "id": "b9e2496f-09b2-41eb-9e01-7e5e57a8e803"
+            }
+        ],
+        "pantry": [
+            "Salt",
+            "Black Pepper",
+            "Olive Oil",
+            "Garlic",
+            "Onion"
+        ],
+        "meal_plan": {
+            "Monday": {
+                "breakfast": null,
+                "lunch": null,
+                "dinner": null
+            },
+            "Tuesday": {
+                "breakfast": null,
+                "lunch": null,
+                "dinner": null
+            },
+            "Wednesday": {
+                "breakfast": null,
+                "lunch": null,
+                "dinner": null
+            },
+            "Thursday": {
+                "breakfast": null,
+                "lunch": null,
+                "dinner": null
+            },
+            "Friday": {
+                "breakfast": null,
+                "lunch": null,
+                "dinner": null
+            },
+            "Saturday": {
+                "breakfast": null,
+                "lunch": null,
+                "dinner": null
+            },
+            "Sunday": {
+                "breakfast": null,
+                "lunch": null,
+                "dinner": null
+            }
+        },
+        "preferences": {
+            "theme": "dark",
+            "default_diet": "None"
+        }
+    }
+}
