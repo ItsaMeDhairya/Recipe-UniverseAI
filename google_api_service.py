@@ -1,16 +1,23 @@
 # google_api_service.py
+import os
 import requests
 import json
-from config import (
-    GEMINI_API_KEY, GOOGLE_API_KEY, CUSTOM_SEARCH_ENGINE_ID_IMAGE, CUSTOM_SEARCH_ENGINE_ID_WEB
-)
+from dotenv import load_dotenv
+
+load_dotenv()
+
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+CUSTOM_SEARCH_ENGINE_ID_IMAGE = os.getenv("CUSTOM_SEARCH_ENGINE_ID_IMAGE")
+CUSTOM_SEARCH_ENGINE_ID_WEB = os.getenv("CUSTOM_SEARCH_ENGINE_ID_WEB")
+
 
 def search_web_for_recipes(query):
     """
     Calls the Google Custom Search API to search the web for recipes.
     """
     if not GOOGLE_API_KEY or "PASTE" in GOOGLE_API_KEY:
-        print("[ERROR] Google Cloud API Key is missing from config.py")
+        print("[ERROR] Google Cloud API Key is missing from .env file")
         return {"error": "API Key Missing"}
 
     api_url = "https://www.googleapis.com/customsearch/v1"
@@ -36,7 +43,7 @@ def generate_recipe_from_api(ingredients, cuisine, diet):
     Includes robust error handling.
     """
     if not GEMINI_API_KEY or "PASTE" in GEMINI_API_KEY:
-        print("[ERROR] Gemini API Key is missing from config.py")
+        print("[ERROR] Gemini API Key is missing from .env file")
         return None
 
     api_url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={GEMINI_API_KEY}"
@@ -82,7 +89,7 @@ def get_recipe_image_url(query):
     Returns a placeholder if no image is found.
     """
     if not GOOGLE_API_KEY or "PASTE" in GOOGLE_API_KEY:
-        print("[ERROR] Google Cloud API Key is missing from config.py")
+        print("[ERROR] Google Cloud API Key is missing from .env file")
         return "https://placehold.co/600x400/a78bfa/ffffff?text=API+Key+Missing"
     
     api_url = "https://www.googleapis.com/customsearch/v1"
@@ -112,7 +119,7 @@ def get_pairings_from_api(recipe):
     Calls the Gemini API to get beverage pairings for a recipe.
     """
     if not GEMINI_API_KEY or "PASTE" in GEMINI_API_KEY:
-        print("[ERROR] Gemini API Key is missing from config.py")
+        print("[ERROR] Gemini API Key is missing from .env file")
         return None
 
     api_url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={GEMINI_API_KEY}"
@@ -144,7 +151,7 @@ def get_modified_recipe_from_api(recipe, mod_type):
     Calls the Gemini API to modify a recipe.
     """
     if not GEMINI_API_KEY or "PASTE" in GEMINI_API_KEY:
-        print("[ERROR] Gemini API Key is missing from config.py")
+        print("[ERROR] Gemini API Key is missing from .env file")
         return None
 
     api_url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={GEMINI_API_KEY}"
@@ -176,7 +183,7 @@ def get_ingredient_swaps_from_api(recipe, ingredient):
     Calls the Gemini API to get ingredient swaps for a recipe.
     """
     if not GEMINI_API_KEY or "PASTE" in GEMINI_API_KEY:
-        print("[ERROR] Gemini API Key is missing from config.py")
+        print("[ERROR] Gemini API Key is missing from .env file")
         return None
 
     api_url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={GEMINI_API_KEY}"
